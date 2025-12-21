@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LoRaWAY-FTP")(type "KiCad")(uri "${KIPRJMOD}/LoRaWAY-FTP.pretty")(options "")(descr ""))
+)
