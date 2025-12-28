@@ -1,4 +1,8 @@
 # LoRaWAY
+![ESP32-C3](https://img.shields.io/badge/ESP32--C3-E7352C)
+![LoRa](https://img.shields.io/badge/LoRa-Semtech-blue)
+![LoRaWAN](https://img.shields.io/badge/LoRaWAN-Enabled-green)
+![IoT](https://img.shields.io/badge/IoT-Embedded-orange)
 
 LoRaWAY is an ESP32-C3–based project that interfaces with the **KG200Z LoRa module** to enable both **peer-to-peer (P2P) LoRa communication** and **LoRaWAN connectivity**.
 
