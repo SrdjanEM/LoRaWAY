@@ -1,6 +1,6 @@
 # LoRaWAY
 ![ESP32-C3](https://img.shields.io/badge/ESP32--C3-E7352C)
-![LoRa](https://img.shields.io/badge/LoRa-Semtech-blue)
+![LoRa Module](https://img.shields.io/badge/LoRa-Quectel%20KG200Z-blue)
 ![LoRaWAN](https://img.shields.io/badge/LoRaWAN-Enabled-green)
 ![IoT](https://img.shields.io/badge/IoT-Embedded-orange)
 
