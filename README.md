@@ -3,7 +3,7 @@
 LoRaWAY is an ESP32-C3–based project that interfaces with the **KG200Z LoRa module** to enable both **peer-to-peer (P2P) LoRa communication** and **LoRaWAN connectivity**.
 
 The ESP32-C3 acts as a controller and bridge, handling configuration, command parsing, and data exchange with the KG200Z module via AT commands.
-
+![LoRaWAY](LoRaWAY.png)
 ## Features
 
 * 📡 **LoRa P2P communication**
