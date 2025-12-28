@@ -947,6 +947,122 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LoRaWAY-SYM:AP7363"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP7363_1_1"
+				(rectangle
+					(start -6.35 -1.27)
+					(end 6.35 -8.89)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LoRaWAY-SYM:ASEK-32.768KHZ-L-R-T"
 			(pin_names
 				(offset 1.016)
@@ -4032,143 +4148,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:AMS1117-3.3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AMS1117-3.3"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AMS1117-3.3_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AMS1117-3.3_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SW_Push_1"
 			(pin_numbers
 				(hide yes)
@@ -5250,12 +5229,6 @@
 		(uuid "202d6aac-52f3-411a-959c-2580a69c0b2a")
 	)
 	(junction
-		(at 24.765 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2dacf863-edba-482c-a6ee-6104f523f5d4")
-	)
-	(junction
 		(at 276.225 32.385)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5332,6 +5305,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "496e676c-be9d-4d9f-b742-fd4038018b80")
+	)
+	(junction
+		(at 24.765 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "546e614b-5972-49e8-aecc-42c6cd4b1f9d")
 	)
 	(junction
 		(at 375.92 92.71)
@@ -6447,6 +6426,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 25.4) (xy 128.27 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b0d4bc-7807-408d-a009-7e16782d6140")
+	)
+	(wire
+		(pts
 			(xy 285.115 47.625) (xy 295.275 47.625)
 		)
 		(stroke
@@ -6754,6 +6743,16 @@
 			(type default)
 		)
 		(uuid "58df9d64-b17c-4e82-8ce8-aa9f98f9c230")
+	)
+	(wire
+		(pts
+			(xy 24.765 48.26) (xy 27.305 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a9cffcc-3668-428c-a997-7dc93d80188b")
 	)
 	(wire
 		(pts
@@ -7247,16 +7246,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.765 45.72) (xy 24.765 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86986f09-cd48-4419-9499-2d465b3f21ab")
-	)
-	(wire
-		(pts
 			(xy 128.27 25.4) (xy 128.27 27.94)
 		)
 		(stroke
@@ -7607,13 +7596,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 25.4) (xy 110.49 25.4)
+			(xy 109.22 25.4) (xy 107.95 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f9053de-9468-4085-a1cc-9392524e6226")
+		(uuid "9f1e79d8-ec24-4d87-a327-0c56d357dcdd")
 	)
 	(wire
 		(pts
@@ -7674,6 +7663,16 @@
 			(type default)
 		)
 		(uuid "a43314e2-2585-460c-a9f6-ac3fb222e100")
+	)
+	(wire
+		(pts
+			(xy 24.765 48.26) (xy 24.765 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50e7a5a-912c-4bff-80b9-e6b76d8826c5")
 	)
 	(wire
 		(pts
@@ -8257,16 +8256,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.765 48.26) (xy 27.305 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4b40351-4da9-441b-809d-d562d0917efd")
-	)
-	(wire
-		(pts
 			(xy 126.365 113.03) (xy 126.365 116.205)
 		)
 		(stroke
@@ -8294,16 +8283,6 @@
 			(type default)
 		)
 		(uuid "e63163dd-d9ea-4a58-9d90-4f1850d54877")
-	)
-	(wire
-		(pts
-			(xy 128.27 25.4) (xy 125.73 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6419842-659c-4822-b8ad-44556b9559da")
 	)
 	(wire
 		(pts
@@ -8457,7 +8436,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.765 48.26) (xy 24.765 50.8)
+			(xy 24.765 45.72) (xy 24.765 48.26)
 		)
 		(stroke
 			(width 0)
@@ -10346,79 +10325,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 118.11 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "232c3706-0189-4352-a4eb-a9df19fc6a86")
-		(property "Reference" "U5"
-			(at 118.11 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "AMS1117-3.3"
-			(at 118.11 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 118.11 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 120.65 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 118.11 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6c0a25f-d9ed-4d1e-858e-307112977359")
-		)
-		(pin "2"
-			(uuid "7ac2fb9b-7ced-4ffe-b084-110a83bca900")
-		)
-		(pin "3"
-			(uuid "a5053144-877a-4686-a365-dd87f29d6e28")
-		)
-		(instances
-			(project ""
-				(path "/29d34426-e6a0-41a6-826b-ac3d17fccd66"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 117.475 99.695 0)
 		(unit 1)
@@ -11386,78 +11292,6 @@
 			(project "LoRaWAY"
 				(path "/29d34426-e6a0-41a6-826b-ac3d17fccd66"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 107.95 30.48 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3be313cc-9813-4ab6-b007-7f73d4b5c157")
-		(property "Reference" "C3"
-			(at 105.41 29.2162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
-			(at 105.41 31.7562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 107.95 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 107.95 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "edd7135c-4314-44a5-a7c6-8e361b7cea3d")
-		)
-		(pin "1"
-			(uuid "8b37ede5-6fca-4138-8c0c-036590f178ba")
-		)
-		(instances
-			(project "LoRaWAY"
-				(path "/29d34426-e6a0-41a6-826b-ac3d17fccd66"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -15224,6 +15058,86 @@
 		)
 	)
 	(symbol
+		(lib_id "LoRaWAY-SYM:AP7363")
+		(at 118.11 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c641509a-6998-4f0e-a595-368e02df5891")
+		(property "Reference" "U1"
+			(at 118.11 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP7363"
+			(at 118.11 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LoRaWAY-FTP:TO252-3L_DIO"
+			(at 118.11 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7363.pdf"
+			(at 118.11 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 1.5A TO-252-3"
+			(at 118.11 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AP7363-33D-13"
+			(at 118.11 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45574a81-9b55-4adc-b563-89582582cd33")
+		)
+		(pin "2"
+			(uuid "52c50291-db99-4e79-aa20-35ff0fd50266")
+		)
+		(pin "3"
+			(uuid "214ba312-7142-4d92-940e-bf9da4e6dd15")
+		)
+		(instances
+			(project ""
+				(path "/29d34426-e6a0-41a6-826b-ac3d17fccd66"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 282.575 47.625 90)
 		(unit 1)
@@ -16138,6 +16052,78 @@
 			(project "LoRaWAY"
 				(path "/29d34426-e6a0-41a6-826b-ac3d17fccd66"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 107.95 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de11c2d3-e632-4a46-b40e-d550dea898d7")
+		(property "Reference" "C3"
+			(at 105.41 29.2162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 105.41 31.7562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 107.95 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 107.95 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06e4151e-f630-4f04-b25e-b6b4e65e9e0f")
+		)
+		(pin "1"
+			(uuid "006ed1a3-1283-4201-bb62-3870b662ad38")
+		)
+		(instances
+			(project "LoRaWAY"
+				(path "/29d34426-e6a0-41a6-826b-ac3d17fccd66"
+					(reference "C3")
 					(unit 1)
 				)
 			)
