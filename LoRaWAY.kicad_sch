@@ -8086,6 +8086,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.875 28.575) (xy 276.225 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9d73ea-fe38-48f0-9c28-4294590a4c50")
+	)
+	(wire
+		(pts
 			(xy 53.975 106.68) (xy 53.975 111.76)
 		)
 		(stroke
@@ -12535,6 +12545,76 @@
 			(project "LoRaWAY"
 				(path "/29d34426-e6a0-41a6-826b-ac3d17fccd66"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 269.875 28.575 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74b196c6-9861-4b42-bd56-c8911cab29e8")
+		(property "Reference" "TP9"
+			(at 264.795 26.797 0)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 267.8429 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 269.875 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.875 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 269.875 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e960aed0-ab80-46c0-94ee-73c87dc43e68")
+		)
+		(instances
+			(project "LoRaWAY"
+				(path "/29d34426-e6a0-41a6-826b-ac3d17fccd66"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
